@@ -4,7 +4,6 @@
 #![allow(clippy::len_without_is_empty)]
 #![allow(clippy::needless_range_loop)]
 #![feature(specialization)]
-#![cfg_attr(not(test), no_std)]
 
 extern crate alloc;
 
