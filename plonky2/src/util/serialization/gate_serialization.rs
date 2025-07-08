@@ -1,6 +1,6 @@
 //! A module to help with GateRef serialization
 
-use alloc::vec::Vec;
+pub use alloc::vec::Vec;
 
 use plonky2_field::extension::Extendable;
 
