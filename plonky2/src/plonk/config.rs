@@ -116,11 +116,3 @@ impl GenericConfig<2> for KeccakGoldilocksConfig {
     type Hasher = KeccakHash<25>;
     type InnerHasher = PoseidonHash;
 }
-
-pub struct Bn254BaseConfig;
-impl GenericConfig<2> for Bn254BaseConfig {
-    type F = Bn254Base;
-    type FE = QuadraticExtension<Self::F>;
-    type Hasher = PoseidonHash;
-    type InnerHasher = PoseidonHash;
-}
